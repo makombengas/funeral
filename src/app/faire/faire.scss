@@ -1,0 +1,274 @@
+.faireContainer {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 0;
+
+  .faireTop {
+    background-color: #8a3c7f;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+  }
+  .faire {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../data/image/maman.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .faireList {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2.5rem 0;
+      gap: 1rem;
+
+      background-color: hsla(0, 0%, 100%, 0.599);
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        li {
+          list-style: decimal;
+          font-weight: 400;
+          font-size: 1.5rem;
+        }
+      }
+    }
+    p {
+      width: 100%;
+      font-size: 2rem;
+      font-weight: 200;
+      text-align: justify;
+      padding: 2rem 5rem !important;
+    }
+  }
+}
+@media (max-width: 1960px) {
+  .faireContainer {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0;
+
+    .faireTop {
+      background-color: #8a3c7f;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      h1 {
+        font-size: 2.5rem;
+        color: #fff;
+      }
+    }
+    .faire {
+      width: 100%;
+      height: 100%;
+      background-image: none;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../../data/image/maman.png');
+      background-repeat: no-repeat;
+
+      .faireList {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2.5rem 0;
+        gap: 1rem;
+
+        background-color: hsla(0, 0%, 100%, 0.714);
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          li {
+            list-style: decimal;
+            font-weight: 400;
+            font-size: 1.5rem;
+          }
+        }
+      }
+      p {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 200;
+        text-align: justify;
+        padding: 2rem 5rem !important;
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .faireContainer {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0;
+
+    .faireTop {
+      background-color: #8a3c7f;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+
+      h1 {
+        font-size: 2rem;
+        color: #fff;
+      }
+    }
+    .faire {
+      width: 100%;
+      height: 100%;
+      padding: 0rem 2rem;
+      background-image: none;
+      .faireList {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2.5rem 0;
+        gap: 1rem;
+        background-color: hsla(0, 0%, 100%, 0.599);
+        ul {
+          padding: 0rem 2rem;
+          li {
+            list-style: decimal;
+            font-weight: 400;
+            font-size: 1.15rem;
+            text-align: start;
+          }
+        }
+      }
+      p {
+        width: 100%;
+        font-size: 1.25rem;
+        text-align: justify;
+        font-weight: 400;
+        padding: 0rem !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .faireContainer {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+
+    .faireTop {
+      background-color: #8a3c7f;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      h1 {
+        font-size: 2rem;
+        color: #fff;
+      }
+    }
+    .faire {
+      width: 100%;
+      height: 100%;
+      padding: 0rem 1rem;
+      .faireList {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2.5rem 0;
+        gap: 1rem;
+        ul {
+          padding: 0rem 2rem;
+          li {
+            list-style: decimal;
+            font-weight: 400;
+            font-size: 1rem;
+          }
+        }
+      }
+      p {
+        width: 100%;
+        font-size: 1.25rem;
+        text-align: justify;
+        font-weight: 400;
+        padding: 0rem !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .faireContainer {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0;
+
+    .faireTop {
+      background-color: #8a3c7f;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      h1 {
+        font-size: 2rem;
+        color: #fff;
+      }
+    }
+    .faire {
+      width: 100%;
+      height: 100%;
+      padding: 0rem 1rem;
+      .faireList {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2.5rem 0;
+        gap: 1rem;
+        ul {
+          padding: 0rem 2rem;
+          li {
+            list-style: decimal;
+            font-weight: 400;
+            font-size: 1rem;
+          }
+        }
+      }
+      p {
+        width: 100%;
+        font-size: 1.25rem;
+        text-align: justify;
+        font-weight: 400;
+        padding: 0rem !important;
+      }
+    }
+  }
+}

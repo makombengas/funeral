@@ -1,0 +1,361 @@
+.programmeContainer {
+  width: 100%;
+  height: 100%;
+  padding: 9rem 0;
+  .programmes {
+    .programTop {
+      background-color: #8a3c7f;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      h1 {
+        font-size: 2.5rem;
+        color: #fff;
+      }
+      img {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+      }
+    }
+    p {
+      padding: 2rem 0rem;
+      text-align: center;
+    }
+  }
+
+  .programDate {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-weight: 500;
+      font-size: 2rem;
+    }
+    .allProgramContainer {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      .program {
+        width: 100%;
+        padding: 2rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+        h4 {
+          font-size: 1.25rem;
+          background-color: #000000;
+          width: 16rem;
+          padding: 0.5rem;
+          color: #fff;
+          margin: 0 1rem;
+        }
+        .programContainer {
+          width: 50%;
+          padding: 0.5rem 1rem;
+          background-color: rgba(255, 255, 255, 0.8);
+
+          font-size: 30px;
+          text-align: center;
+
+          ul {
+            display: flex;
+            align-items: center;
+            margin: 0.25rem 0;
+            gap: 1rem;
+            padding: 0 1rem;
+            list-style: disc;
+            p {
+              font-size: 1.25rem;
+              font-weight: 300;
+              padding: 0.5rem !important;
+              text-align: justify;
+            }
+            li {
+              font-size: 1.25rem;
+              list-style: none;
+              font-weight: bold;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .programmeContainer {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0;
+    .programmes {
+      .programTop {
+        background-color: #8a3c7f;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        h1 {
+          font-size: 2.5rem;
+          color: #fff;
+        }
+        img {
+          width: 10rem;
+          height: 10rem;
+          object-fit: cover;
+        }
+      }
+      p {
+        padding: 2rem 0rem;
+        text-align: center;
+      }
+    }
+
+    .programDate {
+      width: 100%;
+      display: flex;
+
+      flex-direction: column;
+      align-items: center;
+      .allProgramContainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        .program {
+          width: 100%;
+          padding: 2rem 0rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+
+          h4 {
+            font-size: 1.25rem;
+            background-color: #000000;
+            width: 16rem;
+            padding: 0.5rem;
+            color: #fff;
+            margin: 0 1rem;
+          }
+          .programContainer {
+            width: 80%;
+            padding: 0.5rem 1rem;
+            background-color: rgba(255, 255, 255, 0.8);
+
+            font-size: 30px;
+            text-align: center;
+
+            ul {
+              display: flex;
+
+              gap: 1rem;
+              padding: 0 1rem;
+              list-style: disc;
+              p {
+                font-size: 1.25rem;
+                font-weight: 300;
+                padding: 0.5rem !important;
+                text-align: justify;
+              }
+              li {
+                font-size: 1.25rem;
+                list-style: none;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .programmeContainer {
+    width: 100%;
+    height: 100%;
+    padding: 3.5rem 0;
+    .programmes {
+      .programTop {
+        background-color: #8a3c7f;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        h1 {
+          font-size: 2rem;
+          color: #fff;
+        }
+        img {
+          width: 10rem;
+          height: 10rem;
+          object-fit: cover;
+        }
+      }
+      p {
+        padding: 2rem;
+        text-align: center;
+      }
+    }
+
+    .programDate {
+      width: 100%;
+      display: flex;
+
+      flex-direction: column;
+      align-items: center;
+      p {
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+      .allProgramContainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        .program {
+          width: 100%;
+          padding: 2rem 0rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+
+          h4 {
+            font-size: 1.25rem;
+            background-color: #000000;
+            width: 16rem;
+            padding: 0.5rem;
+            color: #fff;
+            margin: 0 1rem;
+          }
+          .programContainer {
+            width: 100%;
+            padding: 0.5rem 1rem;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            text-align: center;
+            justify-content: center;
+
+            ul {
+              display: flex;
+
+              gap: 1rem;
+              padding: 0 1rem;
+              list-style: disc;
+              p {
+                font-size: 1.15rem;
+                font-weight: 200;
+                padding: 0.5rem !important;
+                text-align: justify;
+              }
+              li {
+                font-size: 1.15rem;
+                list-style: none;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .programmeContainer {
+    width: 100%;
+    height: 100%;
+    padding: 2.8rem 0;
+    .programmes {
+      .programTop {
+        background-color: #8a3c7f;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0 2rem;
+        h1 {
+          font-size: 2rem;
+          color: #fff;
+        }
+        img {
+          width: 10rem;
+          height: 10rem;
+          object-fit: cover;
+        }
+      }
+      p {
+        padding: 2rem;
+        text-align: center;
+      }
+    }
+
+    .programDate {
+      width: 100%;
+      display: flex;
+
+      flex-direction: column;
+      align-items: center;
+      .allProgramContainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        .program {
+          width: 100%;
+          padding: 2rem 0rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+
+          h4 {
+            font-size: 1.25rem;
+            background-color: #000000;
+            width: 100%;
+            padding: 0.5rem;
+            color: #fff;
+            margin: 0rem;
+          }
+          .programContainer {
+            width: 80%;
+            padding: 0.5rem 0rem;
+            background-color: rgba(255, 255, 255, 0.8);
+
+            font-size: 30px;
+            text-align: center;
+
+            ul {
+              display: flex;
+              gap: 1rem;
+              padding: 0rem;
+              list-style: disc;
+              p {
+                font-size: 1rem;
+                font-weight: 200;
+                padding: 0.5rem !important;
+                text-align: left;
+              }
+              li {
+                font-size: 1rem;
+                list-style: none;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
