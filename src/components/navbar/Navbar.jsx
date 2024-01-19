@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className='navbarContainer'>
       <div className={changeNav ? 'change' : 'topBar'}>
         <Link href='/' onClick={() => setOpenMenu(false)}>
-          <h1>Célebration de vie</h1>
+          <h1>Célébration de vie</h1>
         </Link>
         {openMenu ? (
           <div className='hamburgerMenu' onClick={() => setOpenMenu(!openMenu)}>
