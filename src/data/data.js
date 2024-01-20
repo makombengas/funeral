@@ -93,9 +93,6 @@ export const programData = {
     {
       id: 2,
       date: 'Vendredi 9 février 2024',
-      eleven: '11:00',
-      elevenInfos:
-        'Mise en bière à la morgue de l’hopital militaire de Douala.',
       twelve: '11:30',
       twelveInfos:
         'Arrivée du cortège à Fanda et installation de la dépuille au domicile familliale.',
